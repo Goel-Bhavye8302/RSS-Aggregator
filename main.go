@@ -20,6 +20,8 @@ type apiConfig struct {
 }
 
 func main() {
+// dummy commit
+
 	envErr := godotenv.Load()
 
 	if envErr != nil {
